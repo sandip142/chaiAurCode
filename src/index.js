@@ -1,8 +1,7 @@
 import dotenv from 'dotenv'
 import connectDb from "./Db/Auth.js" 
 dotenv.config({path:"./env"})
-import  express, { urlencoded }  from 'express'
-const app = express()
+import { app } from './app.js'
 
 // app.use(cookie())
 
