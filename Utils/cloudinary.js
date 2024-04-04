@@ -23,3 +23,5 @@ const UploadOnCloudynary = async (locatPath)=>{
               fs.unlinkSync(locatPath) //remove the file fromlocal storage which are not get uploaded 
       }
 }
+
+export {UploadOnCloudynary}
