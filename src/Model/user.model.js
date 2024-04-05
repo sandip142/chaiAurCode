@@ -34,7 +34,7 @@ const userSchema= new mongoose.Schema({
         ref:"Video"
     },
     password:{
-        type:true,
+        type:String,
         required:true,
     },
     refreshToken:{
